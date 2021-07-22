@@ -11,8 +11,6 @@ def multiply(a,b):
 def divide(a,b):
     return(a / b)
 
-import logging
-
 #Zwrot do użytkownika
 print("Wybierz operację:")
 print("1.Dodawanie")
@@ -26,7 +24,6 @@ if choice in ('1', '2', '3', '4'):
     num2 = float(input("Podaj drugą wartość: "))
 
     if choice == '1':
-        logging.info("Dodaję liczby"),
         print(num1, '+', num2, '=', add(num1, num2))
 
     elif choice== '2':
